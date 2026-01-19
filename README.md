@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Austin Cowart!👋
 
-<!--
-**austin-cowart/austin-cowart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+Currently taking CSC-134 and getting ready to learn C++!
 
-Here are some ideas to get you started:
+## My Foo (special interest) 🎯
+I have a passion of computer programming. I already have knowledge and experience in Python, Java, Javascript and HTML, 
+and want to create amazing projects with the knowledge i've learned, in and-out-of this course!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Currently Learning
+- C++
+
+## Fun Fact
+I also like to play golf in my free-time.
+
+## Find Me
+- 📫 Right here on GitHub!
