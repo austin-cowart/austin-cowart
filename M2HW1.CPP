@@ -122,7 +122,7 @@ void question_three(){
     // Calculate total number of slices of Pizza
     int total_slices = number_of_pizzas * slices_per_pizza;
     // Calculate how many slices are distributed, and how many are left over
-    int remaining_slices = total_slices 
+    int remaining_slices = total_slices - 5;
 
     //TODO: Find a way to distribute 3 slices to each visitor in the party
 
@@ -134,30 +134,20 @@ void question_four(){
     cout << "Question 4 - FTCC Sports Team" << endl;
 
     // Showcase Team Cheering Message
-    string letsGO; // "Let's go" - Beginning of Cheer Message
-    string school; // "FTCC" - School Name
-    string team; // "Trojans" - Team Name
-    string cheerOne; // "Let's go FTCC" - First Cheer Message
-    string cheerTwo; // "Let's go Trojans" - Second Cheer Message
+    string letsGO = "Let's Go"; // "Let's go" - Beginning of Cheer Message
+    string school = "FTCC"; // "FTCC" - School Name
+    string team = "Trojans"; // "Trojans" - Team Name
+    string cheerOne = letsGO + " " + school; // "Let's go FTCC" - First Cheer Message
+    string cheerTwo = letsGO + " " + team; // "Let's go Trojans" - Second Cheer Message
 
-    // Print First Cheer Message
-    for (i=0, i++, i<3){
-        cout << letsGO + school << endl;
-    }
+    // Print First and Second Cheer Messages
+    cout << cheerOne << endl;
+    cout << cheerOne << endl;
+    cout << cheerOne << endl;
+    cout << cheerTwo << endl;
 }
 
 int main(){
-    // Ask User for Question Choice
-    int question_number;
-    cout << "What question would you like to see? : (1-4)";
-    cin >> question_number;
-    
-    if (question_number == 1){
-        question_one();
-    } else if (question_number == 2){
-        question_two();
-    } else if (question_four == 4){
-        question_four();
-    }
+    question_four();
     return 0;
 }
