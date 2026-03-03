@@ -26,6 +26,8 @@ int main() {
     cin >> wid2;
 
     // Find the area
+    int areaOne;
+    int areaTwo;
     areaOne  = len1 * wid1;
     areaTwo = len2 * wid2;
 

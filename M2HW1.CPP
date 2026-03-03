@@ -7,7 +7,6 @@ Austin Cowart
 
 #include <iostream>
 #include <iomanip>
-#include <random>
 using namespace std;
 
 void question_one(){
