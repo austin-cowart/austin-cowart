@@ -36,9 +36,9 @@ int main(){
     cout << "Enter the dimensions of the crate (in feet): \n";
     cout << "Length: ";
     cin >> length;
-    cout << "Width:  ";
+    cout << "Width: ";
     cin >> width;
-    cout << "Height:  ";
+    cout << "Height: ";
     cin >> height;
 
 
@@ -54,6 +54,6 @@ int main(){
     cout << volume << " cubic feet.\n";
     cout << "Cost to build: $" << charge << endl;
     cout << "Profit: $" << profit << endl;
-    
+
     return 0;
 }
