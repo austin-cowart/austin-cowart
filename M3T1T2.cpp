@@ -1,5 +1,5 @@
 // CSC 134
-// M3T2 
+// M3T1T2
 // cowarta
 // 03/02/2026
 // Ask the user for the width and length of two rectangles
