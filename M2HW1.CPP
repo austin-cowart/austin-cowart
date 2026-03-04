@@ -44,11 +44,15 @@ void question_one(){
     final_account_balance = (starting_balance + deposit_amount) - withdrawl_amount;
 
     // Display Transaction Receipt
+    cout << "----------------------" << endl;
     cout << "TRANSACTION RESULTS" << endl;
+    cout << "----------------------" << endl;
     cout << "USERNAME: " << account_username << endl;
     cout << "ACCOUNT NUMBER: " << account_number << endl;
     cout << "FINAL BALANCE: $" << final_account_balance << endl;
+    cout << "----------------------" << endl;
     cout << "HAVE A GOOD DAY" << endl;
+    cout << "----------------------" << endl;
 
 }
 
@@ -120,10 +124,11 @@ void question_three(){
 
     // Calculate total number of slices of Pizza
     int total_slices = number_of_pizzas * slices_per_pizza;
-    // Calculate how many slices are distributed, and how many are left over
-    int remaining_slices = total_slices - 5;
 
-    //TODO: Find a way to distribute 3 slices to each visitor in the party
+    // Calculate how many slices are distributed to all visitors, 
+    // And how many slices are left over
+    double remaning_slices = total_slices - (3 * number_of_visitors);
+    cout << "REMANING SLICES: " << remaning_slices;
 
 }
 
@@ -139,7 +144,7 @@ void question_four(){
     string cheerOne = letsGO + " " + school; // "Let's go FTCC" - First Cheer Message
     string cheerTwo = letsGO + " " + team; // "Let's go Trojans" - Second Cheer Message
 
-    // Print First and Second Cheer Messages
+    // Display First and Second Cheer Messages
     cout << cheerOne << endl;
     cout << cheerOne << endl;
     cout << cheerOne << endl;
@@ -147,6 +152,25 @@ void question_four(){
 }
 
 int main(){
-    question_four();
+    // User Input for Entering Question
+    int question_number;
+    cout << "What question would you like to see? (1-4): ";
+    cin >> question_number;
+
+    // Conditions for determining which
+    // Question to Display
+    if (question_number == 1){
+        question_one();
+    } 
+    else if (question_number == 2){
+        question_two();
+    }
+    else if (question_number == 3){
+        question_three();
+    }
+    else if (question_number == 4){
+        question_four();
+    }
+
     return 0;
 }
