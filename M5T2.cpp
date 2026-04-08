@@ -9,19 +9,31 @@ Austin Cowart
 #include <iostream>
 using namespace std;
 
+
+// Given 2 numbers, print them out nicely on a line. 
+void printResult(int number, int result) {
+    cout << number << " squared=" << result << endl;
+}
+
+// Given a number, return the square of it.
+int square(int number) {
+    int result; 
+    result = number * number; // Sqaured
+    return result;
+}
+
 int main() {
     // Count Some Numbers
     // And find a Result to each
-    int count = 0;
-    int result;
+    int count = 1;
+    int result; 
 
-    while (count < 12) {
-        // What is 100 times the count?
-        result =  10 * count;
-        cout << count << " " << result << 
-        endl;
+    // This version will be squares
+
+    while (count =< 10){
+        result = square(count);
+        printResult(count, result);
         count++;
     }
 
-    return 0;
 }
