@@ -33,6 +33,7 @@ void method1() {
     // Collect the total, then find the average.
     cout << "Method 1" << endl;
     cout << "---------------" << endl;
+    
     cout << "Enter the number of cars that passed the constuction site per day." << endl;
     cout << "Day 0 = Monday, Day 4 = Friday" << endl;
     const int MAXDAYS = 5;
@@ -80,7 +81,8 @@ void method2() {
     }
     // Find the total amount,
     // Then print the final results.
-    car_average - (double) car_total / MAXDAYS;
+    car_average = (double) car_total / MAXDAYS;
     cout << "Total = " << car_total << endl;
     cout << "Average = " << car_average << endl;
+    cout << "---------------" << endl;
 }
